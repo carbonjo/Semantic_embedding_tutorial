@@ -23,7 +23,7 @@ By working through this notebook, you will learn:
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.7 or higher (Python 3.11 recommended)
 - pip package manager
 
 ### Installation
@@ -34,17 +34,29 @@ By working through this notebook, you will learn:
    cd SemanticSearchEngine
    ```
 
-2. **Install dependencies:**
+2. **Create a virtual environment (recommended):**
+   ```bash
+   # Using Python 3.11 (or your preferred version)
+   python3.11 -m venv venv
+   
+   # Activate the virtual environment
+   # On macOS/Linux:
+   source venv/bin/activate
+   # On Windows:
+   # venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Launch Jupyter Notebook:**
+4. **Launch Jupyter Notebook:**
    ```bash
    jupyter notebook
    ```
 
-4. **Open and run the notebook:**
+5. **Open and run the notebook:**
    - Open `semantic_search_demo.ipynb`
    - Run all cells sequentially (or use "Run All" from the Cell menu)
 
