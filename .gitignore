@@ -49,6 +49,9 @@ ENV/
 # Logs
 *.log
 
+# Answer keys (instructor only — do not commit to student repo)
+*_ANSWER_KEY*
+
 # OS
 .DS_Store
 Thumbs.db
